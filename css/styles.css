@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(46, 47, 66, 1);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+}
+
+button{
+    cursor: pointer;
+}
+
+/* general classes */
+
+.link-aktive{
+    &:hover {
+        color: rgba(64, 75, 191, 1);
+    }
+
+    &:focus{
+        color: rgba(64, 75, 191, 1);
+    }
+}
+
+.akcent-logo{
+    color: rgba(77, 90, 229, 1);
+}
+
+/* Header */
+
+.header {}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-nav {}
+
+.header-nav-list {}
+
+.header-nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #2e2f42;;
+}
+
+.hero-tittle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-button {
+    background-color: rgba(77, 90, 229, 1);
+    color: rgba(255, 255, 255, 1);
+}
