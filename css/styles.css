@@ -3,15 +3,15 @@ body{
     color: rgba(46, 47, 66, 1);
 }
 
-h1,h2,h3,h4,h5,h6,p{
+/* h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
-}
+} */
 
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 a{
@@ -21,6 +21,20 @@ a{
 
 button{
     cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* general classes */
@@ -39,17 +53,19 @@ button{
     color: rgba(77, 90, 229, 1);
 }
 
-/* Header */
-
-.header {}
-
-.header-logo {
+.logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+/* Header */
+
+.header {}
+
+.header-logo {}
 
 .header-nav {}
 
@@ -92,4 +108,102 @@ button{
 .hero-button {
     background-color: rgba(77, 90, 229, 1);
     color: rgba(255, 255, 255, 1);
+}
+
+/* Our Features */
+
+.Features {}
+
+.Features-title {}
+
+.Features-list {}
+
+.Features-item {
+    
+}
+
+.Features-item-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.Features-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* Team */
+
+.team {}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-item-img {}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer{}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
