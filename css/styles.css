@@ -88,13 +88,13 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgba(46, 47, 66, 1);
+    color: #434455;
 }
 
 /* Hero */
 
 .hero {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
 }
 
 .hero-tittle {
@@ -107,9 +107,10 @@ button{
 }
 
 .hero-button {
-    font-weight: 169px;
-    line-height: 56px;
-    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: rgba(77, 90, 229, 1);
     color: rgba(255, 255, 255, 1);
 }
