@@ -40,12 +40,12 @@ button{
 
 /* general classes */
 
-.link-aktive:hover,
-.link-aktive:focus{
+.link-active:hover,
+.link-active:focus{
     color: rgba(64, 75, 191, 1);
 }
 
-.akcent-logo{
+.accent-logo{
     color: rgba(77, 90, 229, 1);
 }
 
