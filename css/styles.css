@@ -39,14 +39,9 @@ button{
 
 /* general classes */
 
-.link-aktive{
-    &:hover {
-        color: rgba(64, 75, 191, 1);
-    }
-
-    &:focus{
-        color: rgba(64, 75, 191, 1);
-    }
+.link-aktive:hover,
+.link-aktive:focus{
+    color: rgba(64, 75, 191, 1);
 }
 
 .akcent-logo{
@@ -54,6 +49,7 @@ button{
 }
 
 .logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -76,6 +72,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: rgba(46, 47, 66, 1);
 }
 
 .header-address {}
@@ -88,6 +85,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: rgba(46, 47, 66, 1);
 }
 
 /* Hero */
@@ -110,26 +108,31 @@ button{
     color: rgba(255, 255, 255, 1);
 }
 
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
 /* Our Features */
 
-.Features {}
+.features {}
 
-.Features-title {}
+.features-title {}
 
-.Features-list {}
+.features-list {}
 
-.Features-item {
+.features-item {
     
 }
 
-.Features-item-title {
+.features-item-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
-.Features-text {
+.features-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -200,10 +203,17 @@ button{
 
 /* Footer */
 
-.footer{}
+.footer{
+    background-color: rgba(46, 47, 66, 1);
+}
+
+.footer-logo{
+    color: #F4F4FD;
+}
 
 .footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
