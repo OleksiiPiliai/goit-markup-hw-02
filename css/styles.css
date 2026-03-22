@@ -124,7 +124,9 @@ button{
 
 .features {}
 
-.features-title {}
+.features-title {
+    color: #2e2f42;
+}
 
 .features-list {}
 
@@ -158,6 +160,7 @@ button{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-list {}
@@ -174,6 +177,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-item-text {
@@ -193,6 +197,7 @@ button{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-list {}
@@ -204,6 +209,7 @@ button{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-item-text {
